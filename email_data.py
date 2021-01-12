@@ -4,8 +4,8 @@ import os
 
 # must change host name/site to run this program on other email services
 host = 'imap.gmail.com'
-username = 'apalmer01010@gmail.com'
-password = '2213woodmere'
+username = # gmail username string goes here
+password = # gmail password string goes here
 mail = imaplib.IMAP4_SSL(host)
 mail.login(username,password)
 # selects which inbox you're in (can see available folders using mail.list())
